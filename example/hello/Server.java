@@ -54,6 +54,15 @@ public class Server implements Hello {
         return a + b;
     }
 
+    public int multiplica(int a, int b) {
+    return a * b;
+    }
+
+    public String inverteString(String s) {
+    return new StringBuilder(s).reverse().toString();
+    }
+
+
     public static void main(String args[]) {
 
         try {
