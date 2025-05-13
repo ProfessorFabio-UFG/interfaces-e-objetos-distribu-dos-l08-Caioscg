@@ -59,6 +59,13 @@ public class Client {
 
             int resp = stub.soma(100,1000);
             System.out.println("Response from soma: " + resp);
+
+            int produto = stub.multiplica(7, 6);
+            System.out.println("Response from multiplica: " + produto);
+
+            String invertida = stub.inverteString("Universidade");
+            System.out.println("Response from inverteString: " + invertida);
+
             
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
